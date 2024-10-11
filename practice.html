@@ -75,6 +75,91 @@ q<!DOCTYPE html>
         </tr>
     </table>
   </body>
-</html>
+  <script>
+    let b = 5;
+    let t = 20;
+    let w = 7;
+    let d = 2;
+    let e = ((b + t)-7)/2;
+    console.log(e);
+  </script>
+  <script>
+    let num1 = 5;
+    if (num1 > 0) {
+      console.log("Positive Number");
+    } else if (num1 < 0) {
+      console.log("Negative Number");
+    } else {
+      console.log("Number is 0");
+    }
+    
+  </script> 
+      <form>
+        <label for="userNumber">Please enter your number</label>
+        <input type="number" placeholder="87654321" id="userNumber" class="form-control"/>
+        <div class="d-none text-danger" id="errormessage">
+          <p>Error! Type in something</p>
+        </div>
+        
+        <button type="button" class="btn btn-primary" onclick="buttonClick()">Submit</button>
+      </form>
+    <script>
+      const buttonClick = () => { 
+        let userPhoneNumber= document.getElementById("userNumber");
+        console.log(userPhoneNumber);
+        let inputFieldLength = userPhoneNumber.value.length;
 
-  
+        if (userPhoneNumber == 0) {
+          <input class="form-control is-invaild"/>;
+          document.getElementById("errorMessage").classlist = "text-danger";
+        }
+      }
+      num.classlist = "form-control is-invaild";
+      
+      <script>
+    let buttonClick = () => { 
+        let userPhoneNumber= document.getElementById("userNumber");
+        console.log(userPhoneNumber);
+        let inputFieldLength = userPhoneNumber.value.length;
+
+        if (inputFieldLength == 0) {
+            document.getElementById("userNumber").classlist = "form-control is-invalid";
+            document.getElementById("errormessage").classlist = "text-danger";
+        } else {
+            document.getElementById("userNumber").classlist = "form-control";
+            document.getElementById("errormessage").classlist = "d-none text-danger";
+        }
+    }
+      </script>
+
+          <form>
+              <label for="userNumber">Please enter your number</label>
+              <input type="number" placeholder="87654321" id="userNumber" class="form-control"/>
+              <div class="d-none text-danger" id="errormessage">
+                  <p>Error! Type in something</p>
+              </div>
+
+              <button type="button" class="btn btn-primary" onclick="buttonClick()">Submit</button>
+          </form>
+                
+        
+
+    </script>
+   </html>
+
+   <b>List of things</b>
+   <ul>
+    <li>food</li>
+    <li>Money</li>
+    <li>drinks</li>
+    <li>Money</li>
+    <li>Money</li>
+  </ul>
+  <h2>School Days Routine</h2>
+  <ol>
+    <li>Brush my teeth</li>
+    <li>sleep</li>
+    <li>drink</li>
+    <li>Glock-19</li>
+    <li>Saigo no Getsuga Tenshō</li>
+  </ol> 

@@ -1,0 +1,19 @@
+let 
+const MY_NRIC = "S12345678B";
+
+console.log(my_house_address);\
+console.log(MY_NRIC)
+
+// old way
+let calculateMyTax = () =>{
+    console.log("$50000)
+}
+
+//new way
+let calculateMyTax = () => {
+    console.log("1200");
+}
+
+//call the functions
+calculateMyIncome();
+calculateMyTax();
