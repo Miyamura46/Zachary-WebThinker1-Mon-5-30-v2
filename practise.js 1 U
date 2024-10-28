@@ -1,4 +1,6 @@
-let 
+const canvas = docuement.getelementById('cavasBoard');
+let ctx = canvas.getContext("2d");
+
 const MY_NRIC = "S12345678B";
 
 console.log(my_house_address);\
